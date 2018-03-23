@@ -12,7 +12,7 @@ public class Member {
      * @return
      *          returns the member's age as an int.
      */
-    public static int getAge() {
+    public int getAge() {
         return 2018 - Member.birthYear;
     }
 
@@ -25,7 +25,7 @@ public class Member {
      * @param book
      *          The book to read.
      */
-    public static void readBook(String) {
+    public void readBook(String) {
         System.out.println("I'm reading " + String + "!");
     }
 }
