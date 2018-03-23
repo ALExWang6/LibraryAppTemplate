@@ -9,5 +9,10 @@ public class LibraryApp {
         member1.birthYear = 2000;
         member1.address = "23 Sycamore Dr";
         
+        Address.address1 = new Address();
+        address1.street = "Sycamore Dr";
+        address1.city = "Markham";
+        address1.province = "Ontario";
+        address1.postalCode = "L3T 5V3";
     }
 }
