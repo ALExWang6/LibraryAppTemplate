@@ -25,7 +25,7 @@ public class Member {
      * @param book
      *          The book to read.
      */
-    public void readBook(String) {
-        System.out.println("I'm reading " + String + "!");
+    public void readBook(book) {
+        System.out.println("I'm reading " + book + "!");
     }
 }
