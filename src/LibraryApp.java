@@ -14,5 +14,15 @@ public class LibraryApp {
         address1.city = "Markham";
         address1.province = "Ontario";
         address1.postalCode = "L3T 5V3";
+        
+        for(int i = 0; i < library.members.length; i++){
+            System.out.println("member#" + i + library.members[i]);
+        }
+
+        for(int j = 0; j < library.books.length; j++){
+            System.out.println("book#" + j + library.books[j]);
+        }
+
+        System.out.println(library.location);
     }
 }
