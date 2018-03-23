@@ -5,7 +5,7 @@ public class Member {
     String name;
     int birthYear;
     Address address;
-
+    
     /**
      * getAge() : int
      * Instance method to calculate the member's age.
