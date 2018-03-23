@@ -3,6 +3,10 @@
  */
 public class Library {
 
+    String name;
+    Address location;
+    Book[] books;
+    Member[] members;
 
     /**
      * addBook(Book) : void
@@ -15,8 +19,20 @@ public class Library {
      *          A new book object to add to the books list
      */
 
+    public void addBook(Book book){
 
+        Book[] tempArray = new Book[this.books.length + 1];
 
+        for(int i = 0; i < this.books.length; i++){
+
+            tempArray[i] = books[i];
+
+        }
+
+        tempArray[tempArray.length - 1] = book;
+        books = tempArray;
+
+    }
 
 
 
@@ -31,7 +47,23 @@ public class Library {
      *          A new member object to add to the members list
      */
 
+    public void addMember( Member member) {
 
+        Member[] tempArray = new Member[this.members.length + 1];
+
+        for(int j = 0; j < this.members.length; j++){
+
+            tempArray[j] = members[j];
+
+        }
+
+        tempArray[tempArray.length - 1] = member;
+        members = tempArray;
+
+
+
+
+    }
 
 
 
