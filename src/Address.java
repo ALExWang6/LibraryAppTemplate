@@ -21,9 +21,8 @@ public class Address {
     String province;
     String postalCode;
 
-    public static void toString() {
-        System.out.println(street);
-        System.out.println(city + ", " + province);
-        System.out.println(postalCode);
+    public String toString() {
+        String formatted = street + "\n" + city + ", " + province + "\n" + postalCode;
+        return formatted;
     }
 }
